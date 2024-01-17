@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 
 Route::get('/{page}', 'AdminController@index');
+Route::get('/{page2}', 'AdminController2@index');
